@@ -1,0 +1,30 @@
+{
+  configurations: [
+    {
+      name: "Debug",
+
+      includePath: [
+        "${workspaceRoot}"
+      ],
+
+      defines: [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ]
+    },
+    {
+      name: "Release",
+
+      includePath: [
+        "${workspaceRoot}"
+      ],
+
+      defines: [
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ]
+    }
+  ]
+}

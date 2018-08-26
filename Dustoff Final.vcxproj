@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{11097005-3461-46C6-A1BB-557DB9E8F54A}</ProjectGuid>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="intermediate\assetregistrycache\029701f5.bin" />
+    <None Include="intermediate\assetregistrycache\12424d50.bin" />
+    <None Include="intermediate\assetregistrycache\12a5dbed.bin" />
+    <None Include="intermediate\assetregistrycache\15faef5b.bin" />
+    <None Include="intermediate\assetregistrycache\169d2c4d.bin" />
+    <None Include="intermediate\assetregistrycache\1d5167fa.bin" />
+    <None Include="intermediate\assetregistrycache\1f683343.bin" />
+    <None Include="intermediate\assetregistrycache\2657c409.bin" />
+    <None Include="intermediate\assetregistrycache\26b732ab.bin" />
+    <None Include="intermediate\assetregistrycache\28fa033d.bin" />
+    <None Include="intermediate\assetregistrycache\29c3675e.bin" />
+    <None Include="intermediate\assetregistrycache\2bf1a9dd.bin" />
+    <None Include="intermediate\assetregistrycache\30e2b9c2.bin" />
+    <None Include="intermediate\assetregistrycache\44c3f9c9.bin" />
+    <None Include="intermediate\assetregistrycache\50a675f9.bin" />
+    <None Include="intermediate\assetregistrycache\52ed2538.bin" />
+    <None Include="intermediate\assetregistrycache\5a627529.bin" />
+    <None Include="intermediate\assetregistrycache\6aeb273c.bin" />
+    <None Include="intermediate\assetregistrycache\6c5c2076.bin" />
+    <None Include="intermediate\assetregistrycache\7088d2e9.bin" />
+    <None Include="intermediate\assetregistrycache\7171c631.bin" />
+    <None Include="intermediate\assetregistrycache\866581fd.bin" />
+    <None Include="intermediate\assetregistrycache\8b9f8553.bin" />
+    <None Include="intermediate\assetregistrycache\8c0e1344.bin" />
+    <None Include="intermediate\assetregistrycache\8e9331e2.bin" />
+    <None Include="intermediate\assetregistrycache\94c5d5a7.bin" />
+    <None Include="intermediate\assetregistrycache\995fc7f5.bin" />
+    <None Include="intermediate\assetregistrycache\a39ccbb5.bin" />
+    <None Include="intermediate\assetregistrycache\b2d34d35.bin" />
+    <None Include="intermediate\assetregistrycache\bf121eca.bin" />
+    <None Include="intermediate\assetregistrycache\c05c0897.bin" />
+    <None Include="intermediate\assetregistrycache\c36c8202.bin" />
+    <None Include="intermediate\assetregistrycache\c9e91a3f.bin" />
+    <None Include="intermediate\assetregistrycache\ccc5a7ee.bin" />
+    <None Include="intermediate\assetregistrycache\cef2e191.bin" />
+    <None Include="intermediate\assetregistrycache\cff8f772.bin" />
+    <None Include="intermediate\assetregistrycache\d671500b.bin" />
+    <None Include="intermediate\assetregistrycache\f09d6b29.bin" />
+    <None Include="intermediate\assetregistrycache\f0d5030c.bin" />
+    <None Include="intermediate\assetregistrycache\f8242d67.bin" />
+    <None Include="intermediate\CachedAssetRegistry.bin" />
+    <None Include="intermediate\reimportcache\3688439234.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
